@@ -14,6 +14,8 @@
 		D25E21001B7E1CC900BA3FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25E20FE1B7E1CC900BA3FA9 /* LaunchScreen.storyboard */; };
 		D25E210B1B7E1CC900BA3FA9 /* NavigationPopDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E210A1B7E1CC900BA3FA9 /* NavigationPopDownTests.swift */; };
 		D25E21161B7E1CC900BA3FA9 /* NavigationPopDownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E21151B7E1CC900BA3FA9 /* NavigationPopDownUITests.swift */; };
+		D25E21261B7E1D1000BA3FA9 /* NavigationPopDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E21241B7E1D1000BA3FA9 /* NavigationPopDownView.swift */; };
+		D25E21271B7E1D1000BA3FA9 /* NavigationPopDownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25E21251B7E1D1000BA3FA9 /* NavigationPopDownView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D25E21111B7E1CC900BA3FA9 /* NavigationPopDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationPopDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25E21151B7E1CC900BA3FA9 /* NavigationPopDownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPopDownUITests.swift; sourceTree = "<group>"; };
 		D25E21171B7E1CC900BA3FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25E21241B7E1D1000BA3FA9 /* NavigationPopDownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationPopDownView.swift; sourceTree = "<group>"; };
+		D25E21251B7E1D1000BA3FA9 /* NavigationPopDownView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationPopDownView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		D25E20F41B7E1CC900BA3FA9 /* NavigationPopDown */ = {
 			isa = PBXGroup;
 			children = (
+				D25E21231B7E1CFE00BA3FA9 /* NavigationPopDown */,
 				D25E20F51B7E1CC900BA3FA9 /* AppDelegate.swift */,
 				D25E20F71B7E1CC900BA3FA9 /* ViewController.swift */,
 				D25E20F91B7E1CC900BA3FA9 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				D25E21171B7E1CC900BA3FA9 /* Info.plist */,
 			);
 			path = NavigationPopDownUITests;
+			sourceTree = "<group>";
+		};
+		D25E21231B7E1CFE00BA3FA9 /* NavigationPopDown */ = {
+			isa = PBXGroup;
+			children = (
+				D25E21241B7E1D1000BA3FA9 /* NavigationPopDownView.swift */,
+				D25E21251B7E1D1000BA3FA9 /* NavigationPopDownView.xib */,
+			);
+			name = NavigationPopDown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 				D25E21001B7E1CC900BA3FA9 /* LaunchScreen.storyboard in Resources */,
 				D25E20FD1B7E1CC900BA3FA9 /* Assets.xcassets in Resources */,
 				D25E20FB1B7E1CC900BA3FA9 /* Main.storyboard in Resources */,
+				D25E21271B7E1D1000BA3FA9 /* NavigationPopDownView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25E21261B7E1D1000BA3FA9 /* NavigationPopDownView.swift in Sources */,
 				D25E20F81B7E1CC900BA3FA9 /* ViewController.swift in Sources */,
 				D25E20F61B7E1CC900BA3FA9 /* AppDelegate.swift in Sources */,
 			);
